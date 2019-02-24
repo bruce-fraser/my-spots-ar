@@ -84,6 +84,11 @@ body{
   color:#fff;
 }
 
+.img-div img {
+  width: 400px;
+  max-width: 80vw;
+}
+
 @media(max-width:960px){
   .container{
     padding-right:3rem;

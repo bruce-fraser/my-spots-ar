@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "XX9RAT5V6K.com.brucefraser.LandmarkLocaterAR",
+      "paths": ["/addSpot/*", "NOT *"]
+    }
+    ]
+  }
+}
