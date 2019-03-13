@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="114x114" href="img/myspots-128.png">
   <link rel="apple-touch-icon" sizes="120x120 152x152 180x180" href="img/myspots-256.png"/>
 
-  <meta name="og:image" content="/img/myspots-256.png">
+  <meta name="og:image" content="img/myspots-256.png">
   <meta name="og:image:width" content="256">
   <meta name="og:image:height" content="256">
   <meta name="og:type" content="product">
@@ -26,13 +26,17 @@
 
   <title>My Spots AR</title>
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
   <header class="v-header container">
     <div class="fullscreen-video-wrap">
-      <video src="img/myspotsvideo1.m4v" autoplay="" loop=""></video>
+      <video autoplay loop id="video1">
+        <source src="img/myspotvideo2.m4v">
+      </video>
+      <video autoplay loop id="video2">
+        <source src="img/myspotsvideo1.m4v">
+      </video>
     </div>
     <div class="header-overlay"></div>
     <div class="header-content text-md-center">
@@ -41,15 +45,23 @@
         <img src="img/myspots-logo-name-transparent.png" alt="brand my spots ar">
       </div>
       <p>Search for places near you in augmented reality!  Mark your spot and send it to a friend!</p>
-      <a href="https://itunes.apple.com/us/app/apple-store/id1454687389?mt=8" class="btn">Get iPhone App</a>
-      <a href="https://itunes.apple.com/us/app/apple-store/id1454687389?mt=8"><img src="img/appstore-badge.png" alt="apple app store" class="store-badge"></a>
+      <a href="https://itunes.apple.com/us/app/apple-store/id1454687389?mt=8" class="btn">Get iPhone app</a>
+      <div>
+        <a href="https://itunes.apple.com/us/app/apple-store/id1454687389?mt=8"><img src="img/appstore-badge.png" alt="apple app store" class="store-badge"></a>
+      </div>
     </div>
   </header>
 
   <footer class="section section-b">
     <div class="container">
-      <h2>what</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <ul>
+        <li><a href="privacy/index.html">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="mailto:myspotsar@gmail.com">Contact</a></li>
+      </ul>
+      <div>
+        <small>&copy; Copyright 2019, Bruce Fraser</small>
+      </div>
     </div>
   </footer>
 </body>

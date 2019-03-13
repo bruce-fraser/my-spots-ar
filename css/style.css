@@ -90,9 +90,56 @@ body{
   max-width: 80vw;
 }
 
+img.store-badge {
+  width: 150px;
+  margin: 40px auto 0px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+header.privacy {
+  background: #333;
+  padding: 30px 0;
+}
+
+header.privacy img {
+  display: block;
+  margin: auto;
+  width: 400px;
+  max-width: 80%;
+}
+
+section.privacy {
+  background: #eee;
+  padding: 30px;
+  min-height: 70vh;
+}
+
+div.container-privacy {
+  max-width: 900px;
+  margin: auto;
+}
+
+video#video2 { display: none; }
+
 @media(max-width:960px){
   .container{
     padding-right:3rem;
     padding-left:3rem;
   }
+  video#video1 { display: none; }
+  video#video2 { display: block; }
 }
